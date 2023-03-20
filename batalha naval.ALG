@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 19/03/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    barco1: vetor[1..7] de inteiro
    barco2: vetor[1..7] de inteiro
    barco3: vetor[1..7] de inteiro
@@ -24,7 +24,7 @@ Var
 
    resultado1, resultado2,x1, x2, y1, y2, xy1,xy2 : inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
         barco1[1] :=2
         barco1[2] :=0
         barco1[3] :=0
@@ -142,48 +142,48 @@ Inicio
         resultado2 := 0
         
         
-        enquanto ((resultado1 <= 24)ou(resultado2 <= 24)) faca
+        enquanto ((resultado1 <= 22)ou(resultado2 <= 22)) faca
         escreva("Bem vindo ao jogo batalha naval")
-        escreva("Jogador 1 escreva a posição y ")
+        escreva("Jogador 1 escreva a posiÃ§Ã£o y ")
         leia(y1)
-        escreva("Jogador 1 escreva a posição x ")
+        escreva("Jogador 1 escreva a posiÃ§Ã£o x ")
         leia(x1)
         se ( y1 = 1) entao
          xy1:= barco1[x1]
-         escreva("você achou ",xy1)
-         escreva("de 24 você achou ",resultado1)
+         escreva("vocÃª achou ",xy1)
+         escreva("de 22 vocÃª achou ",resultado1)
                         se(xy1>0) entao
                          resultado1 := resultado1 + xy1
                         fimse
         fimse
         se ( y1 = 2) entao
          xy1:= barco2[x1]
-        escreva("você achou ",xy1)
-         escreva("de 24 você achou ",resultado1)
+        escreva("vocÃª achou ",xy1)
+         escreva("de 22 vocÃª achou ",resultado1)
                         se(xy1>0) entao
                          resultado1 := resultado1 + xy1
                         fimse
         fimse
         se ( y1 = 3) entao
          xy1:= barco3[x1]
-         escreva("você achou ",xy1)
-         escreva("de 24 você achou ",resultado1)
+         escreva("vocÃª achou ",xy1)
+         escreva("de 22 vocÃª achou ",resultado1)
                         se(xy1>0) entao
                          resultado1 := resultado1 + xy1
                         fimse
         fimse
         se ( y1 = 4) entao
          xy1:= barco4[x1]
-      escreva("você achou ",xy1)
-         escreva("de 24 você achou ",resultado1)
+      escreva("vocÃª achou ",xy1)
+         escreva("de 22 vocÃª achou ",resultado1)
                         se(xy1>0) entao
                          resultado1 := resultado1 + xy1
                         fimse
         fimse
         se ( y1 = 5) entao
          xy1:= barco5[x1]
-         escreva("você achou ",xy1)
-         escreva("de 24 você achou ",resultado1)
+         escreva("vocÃª achou ",xy1)
+         escreva("de 22 vocÃª achou ",resultado1)
 
                         se(xy1>0) entao
                          resultado1 := resultado1 + xy1
@@ -191,8 +191,8 @@ Inicio
         fimse
         se ( y1 = 6) entao
          xy1:= barco6[x1]
-         escreva("você achou ",xy1)
-         escreva("de 24 você achou ",resultado1)
+         escreva("vocÃª achou ",xy1)
+         escreva("de 22 vocÃª achou ",resultado1)
 
                         se(xy1>0) entao
                          resultado1 := resultado1 + xy1
@@ -200,8 +200,8 @@ Inicio
         fimse
         se ( y1 = 7) entao
          xy1:= barco7[x1]
-         escreva("você achou ",xy1)
-         escreva("de 24 você achou ",resultado1)
+         escreva("vocÃª achou ",xy1)
+         escreva("de 22 vocÃª achou ",resultado1)
                         se(xy1>0) entao
                          resultado1 := resultado1 + xy1
                         fimse
@@ -209,14 +209,14 @@ Inicio
 
         //jogador 2
         escreva("Bem vindo ao jogo batalha naval")
-        escreva("Jogador 2 escreva a posição y ")
+        escreva("Jogador 2 escreva a posiÃ§Ã£o y ")
         leia(y2)
-        escreva("Jogador 2 escreva a posição x ")
+        escreva("Jogador 2 escreva a posiÃ§Ã£o x ")
         leia(x2)
         se ( y2 = 1) entao
          xy2:= barco1[x2]
-         escreva("você achou ",xy2)
-         escreva("de 24 você achou ",resultado2)
+         escreva("vocÃª achou ",xy2)
+         escreva("de 22 vocÃª achou ",resultado2)
 
                         se(xy2>0) entao
                          resultado2 := resultado2 + xy2
@@ -224,8 +224,8 @@ Inicio
         fimse
         se ( y2 = 2) entao
          xy2:= barco2[x2]
-         escreva("você achou ",xy2)
-         escreva("de 24 você achou ",resultado2)
+         escreva("vocÃª achou ",xy2)
+         escreva("de 22 vocÃª achou ",resultado2)
 
                         se(xy2>0) entao
                          resultado2 := resultado2 + xy2
@@ -233,8 +233,8 @@ Inicio
         fimse
         se ( y2 = 3) entao
          xy2:= barco3[x2]
-         escreva("você achou ",xy2)
-         escreva("de 24 você achou ",resultado2)
+         escreva("vocÃª achou ",xy2)
+         escreva("de 22 vocÃª achou ",resultado2)
 
                         se(xy2>0) entao
                          resultado2 := resultado2 + xy2
@@ -242,8 +242,8 @@ Inicio
         fimse
         se ( y2 = 4) entao
          xy2:= barco4[x2]
-         escreva("você achou ",xy2)
-         escreva("de 24 você achou ",resultado2)
+         escreva("vocÃª achou ",xy2)
+         escreva("de 22 vocÃª achou ",resultado2)
 
                         se(xy2>0) entao
                          resultado2 := resultado2 + xy2
@@ -251,8 +251,8 @@ Inicio
         fimse
         se ( y2 = 5) entao
          xy2:= barco5[x2]
-         escreva("você achou ",xy2)
-         escreva("de 24 você achou ",resultado2)
+         escreva("vocÃª achou ",xy2)
+         escreva("de 22 vocÃª achou ",resultado2)
 
                         se(xy2>0) entao
                          resultado2 := resultado2 + xy2
@@ -260,8 +260,8 @@ Inicio
         fimse
         se ( y2 = 6) entao
          xy2:= barco6[x2]
-         escreva("você achou ",xy2)
-         escreva("de 24 você achou ",resultado2)
+         escreva("vocÃª achou ",xy2)
+         escreva("de 22 vocÃª achou ",resultado2)
 
                         se(xy2>0) entao
                          resultado2 := resultado2 + xy2
@@ -269,8 +269,8 @@ Inicio
         fimse
         se ( y2 = 7) entao
          xy2:= barco7[x2]
-         escreva("você achou ",xy2)
-         escreva("de 24 você achou ",resultado2)
+         escreva("vocÃª achou ",xy2)
+         escreva("de 22 vocÃª achou ",resultado2)
 
                         se(xy2>0) entao
                          resultado2 := resultado2 + xy2
